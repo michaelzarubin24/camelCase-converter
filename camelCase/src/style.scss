@@ -1,0 +1,92 @@
+@import "./variables.scss";
+
+body {
+  font-family: $ff-primary;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.img {
+  max-width: 30%;
+  height: auto;
+}
+
+.title {
+  color: #333;
+  margin-top: 50px;
+}
+
+.main {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 7px;
+  margin-bottom: 45px;
+  display: block;
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 30px;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 0.3rem;
+  margin-right: $margin-m;
+  margin-left: $margin-m;
+  cursor: pointer;
+  font-family: $ff-secondary;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+#add {
+  background-color: black;
+  color: $primary-text-color;
+}
+
+#remove {
+  background-color: black;
+  color: $primary-text-color;
+}
+// Results styling
+.result-title {
+  color: #333;
+  margin-top: 60px;
+  font-size: 35px;
+}
+
+#result-list {
+  margin-top: 20px;
+}
+
+.result-item {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+// Hover effect for result items
+.result-item:hover {
+  background-color: #c0c0c0;
+}

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "ITC Medium";
+  src: url("../public/fonts/ElanITCStdMedium.otf");
+}
+
+@font-face {
+  font-family: "Penumbra";
+  src: url("../public/fonts/PenumbraHalfSerifStd-Reg.otf");
+}
+
+// PADDING
+$padding-xxxl: 128px;
+$padding-xxl: 60px;
+$padding-xl: 50px;
+$padding-l: 40px;
+$padding-m: 30px;
+$padding-s: 20px;
+$padding-xs: 10px;
+// MARGIN
+$margin-xxxl: 128px;
+$margin-xxl: 65px;
+$margin-xl: 50px;
+$margin-l: 40px;
+$margin-m: 30px;
+$margin-s: 20px;
+$margin-xs: 10px;
+// FONT-FACE
+$fs-xxl: 100px;
+$fs-xl: 75px;
+$fs-l: 45px;
+$fs-m: 27px;
+$fs-s: 14px;
+$fs-xs: 12px;
+$fs-xxs: 9px;
+
+// FONT-FAMILY
+$ff-primary: "ITC Medium";
+$ff-secondary: "Penumbra";
+
+// COLOR
+$primary-text-color: #ffffff;
+$secondary-text-color: #000000;
+$third-text-color: rgb(245, 245, 217);
+$forth-text-color: #5c7178;
+
+// BG
+$primary-bg: #c9c8ab;
+$secondary-bg: #d9d9d9;
+$thrid-bg: #ffffff;
+
+// TRANSITION
+$transition-speed: 500ms;
+$transition-speed-low: 300ms;
+
+// Box-shadow
+$box-shadow-x: 8px 11px 8px;
+$box-shadow-m: 6px 8px 6px;
+$box-shadow-s: 4px 6px 4px;
+
+// border radius
+$br-header: 0 0 1rem 1rem;
+$br-sidebar: 1rem;
+$br-footer: 1rem 1rem 0 0;
+$br-nav: 1rem;
